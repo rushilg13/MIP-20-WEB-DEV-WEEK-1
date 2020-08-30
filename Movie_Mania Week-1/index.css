@@ -1,0 +1,148 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	
+}
+body{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('ford_v_ferrari_xxlg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 10vh;
+	width: 100%;
+}
+nav{
+	background:rgba(255,255,255,0.15);
+	vertical-align: text-top;
+	width: 100%;
+	height:10vh;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: white; 
+	align-items: center;
+}
+.logo{
+	padding-left: 40px;
+	font-family: georgia;
+	width: 25%;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.menu{
+	font-weight: 900;
+	text-transform: uppercase;
+	font-family: helvetica;
+	width: 30%;
+	display:flex;
+	justify-content: space-around;
+}
+.menu a:first-child{
+	color:orange;
+}
+.menu a{
+	width: 25%;
+	text-decoration: none;
+	color: black;
+	justify-content: space-around;
+	display: flex;
+}
+.posters1{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 97%;
+	display: flex;
+	justify-content: space-between;
+}
+.title1{
+	border: solid;
+}
+main{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	
+}
+h1{
+	margin-right: 28px;
+	text-shadow: 1px 1px 1px black;
+}
+h2{
+	margin-right: 28px;
+	font-size: 16pt;
+}
+h3{
+	margin-right: 40px;
+
+	font-size: 16pt;
+}
+sec{
+	margin-bottom: 40px;
+ font-size: 12pt;
+}
+#footer{
+	padding: 10px;
+	bottom: 0;
+	text-align: center;
+	left: 0;
+	height: 6vh;
+	width: 100%;
+	color: black;
+	border-top: solid;
+	border-width: 2px;
+}
+h1{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+}
+.change_content:after{
+	
+	content: '' ;
+	animation: changetext 5s linear infinite alternate;
+	color: rgb(250,50,45);
+
+}
+@keyframes changetext{
+	0%   {content: "Movies!";}
+	25%  {content: "T.V Shows!";}
+	50%  {content: "Anime!";}
+	75%  {content: "Songs!";}
+	100% {content: "Videos!";}
+}
+#Contactus{
+	font-size: 20px;
+	border-radius: 2px;
+	padding: 10px;
+	margin-left: 50px;
+	background-color: black;
+	color: white;
+	border: solid;
+	border-width: 1px;
+	border-color: grey;
+}
+#signup{
+	font-size: 20px;
+	border-radius: 2px;
+	padding: 10px;
+	margin-left: 10px;
+	background-color: black;
+	color: white;
+	border: solid;
+	border-width: 1px;
+	border-color: grey;
+}
+}
